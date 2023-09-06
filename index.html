@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"/>
+  
+
+    <style>
+        *{
+            font-family: 'Cabin', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h1{
+            color: #1285d1;
+        }
+        hr{
+            background: #1285d1;
+            width: 200px;
+            margin: 15px auto;
+            height: 5px !important;
+        }
+        /* Let's design icons  */
+        i{
+            font-size: 150px;
+            margin-bottom: 25px;
+            color: #1285d1;
+        }
+    </style>
+<body>
+
+    <!--  start  hero navbar -->
+   <div class="nav-bar">
+        <div class="nav-container">
+            <div class="brand">
+                <a href=""><img src="img/logo3.png" alt="" style="width: 220px; height:100px"></a>
+            </div>
+            <nav>
+                <div class="nav-mobile">
+                    <a href="#" id="nav-toggle">
+                        <span></span>
+                    </a>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#home">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<!--  end navbar -->
+
+<!--  start hero section -->
+<section class="  text-dark my-2 p-5 text-center text-sm-start" id="home">
+    <div class="container py-5">
+        <div class="d-sm-flex align-items-center justify-content-between py-5 ">
+            <div>
+                <h1 class="">Who we are?</h1>
+                <p class=" lead my-5">
+                    Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Quos ratione harum, labore expedita 
+                    consectetur repellendus pariatur? In animi aspernatur ipsum?
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <button class="btn btn-primary  border  btn-lg">Learn More</button>
+            </div>
+            <a href="#">
+                <img  class="img-fluid my-3"  width="1000" src="img/logo2.3.jpg" >
+            </a>
+        </div>
+    </div>
+</section>
+<!-- end of hero section -->
+
+<!--  start of hero our services -->
+
+<section>
+    <div class="container" id="products">
+        <h1 class="text-center mt-3 display-3 fw-bold">Products</h1>
+        <hr>
+        <div class="row my-5">
+            <div class="col-12 col-sm-6 col-md-4 m-auto">
+                <div class="card text-center my-3"> 
+                    <div class="card-body">
+                        <i class="fa-solid fa-network-wired fa-2xl"></i>
+                    <!-- icon  -->
+                    <h3 class="my-2">Networking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias 
+                        magnam provident, consequuntur doloribus reprehenderit pariatur aliquam incidunt dignissimos 
+                        alias, culpa, nam nesciunt inventore.</p>
+                    </div>
+                    <!--  card.body ends -->
+                </div>
+                <!--  card ends -->
+            </div>
+            <!--  col ends --> 
+            
+            
+            <div class="col-12 col-sm-6 col-md-4 m-auto">
+                <div class="card text-center my-3"> 
+                    <div class="card-body">
+                        <i class="fa-brands fa-android fa-2xl"></i>
+                    <!-- icon  -->
+                    <h3 class="my-2">App Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias 
+                        magnam provident, consequuntur doloribus reprehenderit pariatur aliquam incidunt dignissimos 
+                        alias, culpa, nam nesciunt inventore. </p>
+                    </div>
+                    <!--  card.body ends -->
+                </div>
+                <!--  card ends -->
+            </div>
+            <!--  col ends -->     <div class="col-12 col-sm-6 col-md-4 m-auto">
+                <div class="card text-center my-3"> 
+                    <div class="card-body">
+                        <i class="fa-solid fa-laptop-code fa-2xl"></i>
+                        <!-- icon  -->
+                    <h3 class="my-2">Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias 
+                        magnam provident, consequuntur doloribus reprehenderit pariatur aliquam incidunt dignissimos 
+                        alias, culpa, nam nesciunt inventore.</p>
+                    </div>
+                    <!--  card.body ends -->
+                </div>
+                <!--  card ends -->
+            </div>
+            <!--  col ends -->    
+            
+
+            <div class="col-12 col-sm-6 col-md-4 m-auto">
+                <div class="card text-center my-3"> 
+                    <div class="card-body">
+                        <i class="fa-brands fa-wordpress fa-2xl"></i>
+                    <!-- icon  -->
+                    <h3 class="my-2">Wordpress</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias 
+                        magnam provident, consequuntur doloribus reprehenderit pariatur aliquam incidunt dignissimos 
+                        alias, culpa, nam nesciunt inventore.</p>
+                    </div>
+                    <!--  card.body ends -->
+                </div>
+                <!--  card ends -->
+            </div>
+            <!--  col ends -->
+            
+            
+            <div class="col-12 col-sm-6 col-md-4 m-auto">
+                <div class="card text-center my-3"> 
+                    <div class="card-body">
+                        <i class="fa-solid fa-palette fa-2xl"></i>                    
+                          <!-- icon  -->
+                    <h3 class="my-2">UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias 
+                        magnam provident, consequuntur doloribus reprehenderit pariatur aliquam incidunt dignissimos 
+                        alias, culpa, nam nesciunt inventore. </p>
+                    </div>
+                    <!--  card.body ends -->
+                </div>
+                <!--  card ends -->
+            </div>
+            <!--  col ends --> 
+            
+            
+            <div class="col-12 col-sm-6 col-md-4 m-auto">
+                <div class="card text-center my-3"> 
+                    <div class="card-body">
+                        <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                           <!-- icon  -->
+                    <h3 class="my-2">E-Commerce</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias 
+                        magnam provident, consequuntur doloribus reprehenderit pariatur aliquam incidunt dignissimos 
+                        alias, culpa, nam nesciunt inventore.</p>
+                    </div>
+                    <!--  card.body ends -->
+                </div>
+                <!--  card ends -->
+            </div>
+            <!--  col ends -->
+        </div>
+        </div>
+        <!--  row ends -->
+    </div>
+    <!--  container ends -->
+</section>
+
+<!--  end of hero services -->
+
+
+
+<!--  strat products -->
+<div class="container" id="services">
+    <h1 class="text-center mt-3 display-3 fw-bold">Services</h1>
+    <hr>
+<div class="owl-carousel owl-theme my-5 mx-3 border">
+    
+    <div class="item text-center">
+        <img src="img/logo6.jpg" alt="">
+        <h3>Software & Application Development</h3>
+        <p>Coupa aim is to providesoftware 
+        development service that will help 
+    your business grow and develop rapidy </p>
+    </div>
+   <div class="item text-center">
+        <img src="img/logo5.4.jpg" alt="">
+        <h3>Software & Application Development</h3>
+        <p>Coupa aim is to providesoftware 
+        development service that will help 
+    your business grow and develop rapidy </p>
+    </div>
+   <div class="item text-center">
+        <img src="img/images (2).jpeg" alt="">
+        <h3>Software & Application Development</h3>
+        <p>Coupa aim is to providesoftware 
+        development service that will help 
+    your business grow and develop rapidy </p>
+    </div>
+   <div class="item text-center ">
+        <img src="img/images (1).jpeg" alt="">
+        <h3>Software & Application Development</h3>
+        <p>Coupa aim is to providesoftware 
+        development service that will help 
+    your business grow and develop rapidy </p>
+    </div>
+
+    <div class="item">
+        <img src="img/images (3).jpeg" alt="">
+        <h3>Software & Application Development</h3>
+        <p>Coupa aim is to providesoftware 
+        development service that will help 
+    your business grow and develop rapidy </p>
+    </div>
+   <div class="item">
+        <img src="img/images.jpeg" alt="">
+        <h2>Software & Application Development</h2>
+        <p>Coupa aim is to providesoftware 
+        development service that will help 
+    your business grow and develop rapidy </p>
+    </div>
+ 
+  
+</div>
+</div>
+<!-- end of hero products -->
+
+<!-- start clients -->
+<div class="container-fluid my-6" id="clients">
+    <h1 class="text-center mt-3 display-3 fw-bold">Clients</h1>
+    <hr>
+    <section class="customer-logos  slider">
+    <div class="slide d-flex">
+        <img src="img/slider3.webp" alt="">
+    </div>
+    <div class="slide d-flex">
+        <img src="img/slider2.webp" alt="">
+    </div>
+    <div class="slide d-flex">
+        <img src="img/1.webp" alt="">
+    </div>
+    <div class="slide">
+        <img src="img/slider4.png" alt="">
+    </div>
+    <div class="slide">
+        <img src="img/slider5.webp" alt="">
+    </div>
+  
+    <div class="slide">
+        <img src="img/slider6.webp" alt="">
+    </div>
+    
+    <div class="slide">
+        <img src="img/slider7.png" alt="">
+    </div>   
+    
+    
+</section>
+    </div>
+<!--  end of clients -->
+
+    <!-- start contect -->
+
+
+    <section class="footer my-5 ">
+        <div class="box-container container">
+           
+            <div class="box " id="content">
+              <img src="img/logo3.png"  class="my-5"alt="">
+            </div>
+
+            <div class="box">
+                <h3>About us</h3>
+                <a href="#">Who we are?</a>
+                <a href="#">who we do?</a>
+                <a href="#"> What we promise?</a>
+            </div> 
+              <div class="box">
+                <h3>Services</h3>
+                <a href="#">Software & Application</a>
+                <a href="#">Online Gaming System </a>
+                <a href="#">Online Gaming Consulting</a>
+            </div>
+            <div class="box">
+                <h3>Contact</h3>
+                <a href="#">Telephone</a>
+                <a href="#">Address</a>
+                <a href="#">Email</a>
+                <a href="#">Wechat</a>
+            </div>
+        </div>
+    </section>
+       <!-- end contect -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+     <script src="clients.js"></script>
+
+     <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+     </script>
+</body>
+</html>
